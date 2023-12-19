@@ -1,0 +1,58 @@
+.main {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    box-shadow: 10px 8px 15px -2px rgba(135, 135, 135, 0.37);
+    background-color: #45474B;
+    margin-bottom: 30px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.user h3 {
+    color: #FF2E63;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.user span {
+    font-weight: 500;
+    color: white;
+}
+
+.user_bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_delete {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(255, 0, 0, 0.818);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.user_update {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(32, 250, 3, 0.818);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
